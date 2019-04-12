@@ -37,8 +37,9 @@ dependencies {
     // Litho
     implementation 'com.facebook.litho:litho-core:0.25.0'
     implementation 'com.facebook.litho:litho-widget:0.25.0'
+    compileOnly 'com.facebook.litho:litho-annotations:0.25.0'
 
-    annotationProcessor 'com.facebook.litho:litho-processor:0.25.0'
+    kapt 'com.facebook.litho:litho-processor:0.25.0'
 
     // SoLoader
     implementation 'com.facebook.soloader:soloader:0.6.0'
